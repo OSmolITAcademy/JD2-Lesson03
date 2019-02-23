@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/notes"
+	xmlns:tns="http://www.example.org/notes">
+
+
+	<element name="notes">
+		<complexType>
+			<sequence>
+				<element name="note" type="tns:Note" minOccurs="1"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+
+
+	<complexType name="Note">
+		<sequence>
+			<element name="to" type="string" />
+			<element name="from" type="string" />
+			<element name="heading" type="string" />
+			<element name="body" type="string" />
+		</sequence>
+		<attribute name="id" type="int" use="required" />
+	</complexType>
+
+
+
+</schema>

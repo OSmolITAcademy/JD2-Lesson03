@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tc:notes xmlns:tc="http://www.example.org/notes"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/notes notes.xsd">
+	
+	<note id="1">
+		<to>Вася</to>
+		<from>Света</from>
+		<heading>Напоминание</heading>
+		<body>Позвони мне завтра!</body>
+	</note>
+	<note id="2">
+		<to>Петя</to>
+		<from>Маша</from>
+		<heading>Важное напоминание</heading>
+		<body>Купить пива!</body>
+	</note>
+</tc:notes>
